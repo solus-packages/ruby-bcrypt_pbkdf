@@ -1,0 +1,72 @@
+<PISI>
+    <Source>
+        <Name>ruby-bcrypt_pbkdf</Name>
+        <Packager>
+            <Name>Philipp Trulson</Name>
+            <Email>philipp@trulson.de</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - bcrypt_pbkdf</Summary>
+        <Description xml:lang="en">bcrypt_pdkfd is a ruby gem implementing bcrypt_pdkfd from OpenBSD. This is currently used by net-ssh to read password encrypted Ed25519 keys.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-bcrypt_pbkdf</Name>
+        <Summary xml:lang="en">RubyGem - bcrypt_pbkdf</Summary>
+        <Description xml:lang="en">bcrypt_pdkfd is a ruby gem implementing bcrypt_pdkfd from OpenBSD. This is currently used by net-ssh to read password encrypted Ed25519 keys.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/bcrypt_pbkdf-1.0.0/bcrypt_pbkdf_ext.so</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/bcrypt_pbkdf-1.0.0/gem.build_complete</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/bcrypt_pbkdf-1.0.0/gem_make.out</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/CHANGELOG.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/COPYING</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/Gemfile.lock</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/bcrypt_pbkdf.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/.RUBYARCHDIR.time</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/Makefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/bcrypt_pbkdf.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/bcrypt_pbkdf.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/bcrypt_pbkdf_ext.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/bcrypt_pbkdf_ext.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/bcrypt_pbkdf_ext.so</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/blf.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/blowfish.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/blowfish.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/crypto_api.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/crypto_hash_sha512.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/explicit_bzero.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/explicit_bzero.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/extconf.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/hash_sha512.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/hash_sha512.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/includes.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/sha2.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/util.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/ext/mri/utils.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/lib/bcrypt_pbkdf.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/lib/bcrypt_pbkdf_ext.so</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/test/bcrypt_pnkdf/engine_test.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/bcrypt_pbkdf-1.0.0/test/test_helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/bcrypt_pbkdf-1.0.0.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-11-28</Date>
+            <Version>1.0.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Philipp Trulson</Name>
+            <Email>philipp@trulson.de</Email>
+        </Update>
+    </History>
+</PISI>
