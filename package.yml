@@ -1,6 +1,6 @@
 name       : ruby-bcrypt_pbkdf
 version    : 1.0.0
-release    : 4
+release    : 5
 source     :
     - https://rubygems.org/downloads/bcrypt_pbkdf-1.0.0.gem : 1b86abaca5f4b0e9626b3218ba8f680863bfb3ea2316e1cf647be3c346984432
 license    : MIT
@@ -9,8 +9,9 @@ summary    : RubyGem - bcrypt_pbkdf
 description: |
     bcrypt_pdkfd is a ruby gem implementing bcrypt_pdkfd from OpenBSD. This is currently used by net-ssh to read password encrypted Ed25519 keys.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - ruby
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc}
